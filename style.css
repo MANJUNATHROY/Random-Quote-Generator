@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+
+.wrapper{
+    width:610px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin:35px 0px;
+}
+.content .quotearea{
+    display: flex;
+    justify-content: center;
+
+}
+
+.quotearea i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quotearea i:last-child{
+    margin: 0 0 3px 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quotearea .quote{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+
+.author span:first-child{
+    margin: -9px 5px 0 0;
+}
+
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    color:#5372F0;
+    justify-content: center;
+    margin: 0 5px;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+    border: 2px solid #5372F0;
+}
+ul li:hover{
+    background: #5372F0;
+    color: #fff;
+}
+
+.features button{
+    background-color: #5372F0;
+    color:#fff;
+    border: none;
+    outline:none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding:13px 25px;
+}
+.button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+
+}
